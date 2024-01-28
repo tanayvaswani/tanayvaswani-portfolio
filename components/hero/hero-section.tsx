@@ -1,7 +1,10 @@
+"use client";
+
 import { cn } from "@/lib/utils";
-import { Poppins, Roboto } from "next/font/google";
+import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
+import { motion } from "framer-motion";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -28,27 +31,33 @@ const HeroSection = () => {
         />
       </h1>
 
-      <p
+      <motion.p
         className={cn(
           "text-lg text-neutral-400 md:max-w-screen-md mb-3 md:mb-6",
           poppins.className
         )}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 3 }}
       >
         👋🏻 Hey, I&apos;m Tanay Vaswani (
         <span className="text-blue-500 font-medium"> @iTanayVaswani </span>) a
         Full Stack Developer from India. Passionate about Software Development,
         Cloud Engineering, GenAI & LLMs.
-      </p>
+      </motion.p>
 
-      <p
+      <motion.p
         className={cn(
           "text-lg text-neutral-400 md:max-w-screen-md mb-3 md:mb-8",
           poppins.className
         )}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 3 }}
       >
         I&apos;m currently an undergraduate, pursuing Electronics &
         Communication Engineering majors from New Delhi, India.
-      </p>
+      </motion.p>
     </div>
   );
 };
