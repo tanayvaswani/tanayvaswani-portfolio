@@ -20,7 +20,7 @@ export const ActiveSectionContext =
 export default function ActiveSectionContextProvider({
   children,
 }: ActiveSectionContextProviderProps) {
-  const [activeSection, setActiveSection] = useState<SectionName>("About");
+  const [activeSection, setActiveSection] = useState<SectionName>("Home");
 
   return (
     <ActiveSectionContext.Provider
