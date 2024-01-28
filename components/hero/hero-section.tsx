@@ -13,7 +13,7 @@ const poppins = Roboto({
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col mx-4 md:max-w-screen-lg md:mx-auto">
+    <div className="flex flex-col px-6 md:max-w-screen-lg md:mx-auto">
       <h1
         className={cn(
           "text-2xl md:text-4xl font-semibold md:max-w-screen-sm mb-6 md:mb-12",
