@@ -1,7 +1,7 @@
 export const navItems = [
   {
     name: "About",
-    hash: "#about",
+    hash: "/",
   },
   {
     name: "Blogs",
