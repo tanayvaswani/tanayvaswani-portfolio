@@ -6,6 +6,7 @@ import localFont from "next/font/local";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 import { motion } from "framer-motion";
 import { Separator } from "../ui/separator";
+import Link from "next/link";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -42,9 +43,14 @@ const HeroSection = () => {
         transition={{ ease: "easeOut", duration: 2 }}
       >
         👋🏻 Hey, I&apos;m Tanay Vaswani (
-        <span className="text-blue-500 font-medium"> @iTanayVaswani </span>) a
-        Full Stack Developer from India. Passionate about Software Development,
-        Cloud Engineering, GenAI & LLMs.
+        <Link
+          href={"https://twitter.com/iTanayVaswani"}
+          className="text-blue-500 font-medium"
+        >
+          @iTanayVaswani
+        </Link>
+        ) a Full Stack Developer from India. Passionate about Software
+        Development, Cloud Engineering, GenAI & LLMs.
       </motion.p>
 
       <motion.p
