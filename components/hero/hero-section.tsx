@@ -46,6 +46,7 @@ const HeroSection = () => {
         <Link
           href={"https://twitter.com/iTanayVaswani"}
           className="text-blue-500 font-medium"
+          target="_blank"
         >
           @iTanayVaswani
         </Link>
