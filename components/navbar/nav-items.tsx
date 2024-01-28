@@ -8,22 +8,22 @@ export const navItems = [
   },
   {
     name: "Blogs",
-    hash: "#blogs",
+    hash: "/blogs",
     target: "",
   },
   {
     name: "Projects",
-    hash: "#projects",
+    hash: "/projects",
     target: "",
   },
   {
     name: "Experience",
-    hash: "#experience",
+    hash: "/experience",
     target: "",
   },
   {
     name: "Contact",
-    hash: "#contact",
+    hash: "/contact",
     target: "",
   },
   {

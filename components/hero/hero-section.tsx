@@ -60,7 +60,7 @@ const HeroSection = () => {
         Communication Engineering majors from New Delhi, India.
       </motion.p>
 
-      <Separator className="my-4 bg-blue-500/20" />
+      <Separator className="my-4 bg-blue-600/30" />
     </div>
   );
 };
