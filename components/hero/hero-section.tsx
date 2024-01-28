@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Poppins, Roboto } from "next/font/google";
 import localFont from "next/font/local";
+import { TextGenerateEffect } from "../ui/text-generate-effect";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -20,19 +21,33 @@ const HeroSection = () => {
           headingFont.className
         )}
       >
-        Software Engineering Intern at Stealth Startup, San Francisco Bay Area.
+        <TextGenerateEffect
+          delay={0.2}
+          textColor={""}
+          words="Software Engineering Intern at Stealth Startup, San Francisco Bay Area."
+        />
       </h1>
 
       <p
         className={cn(
-          "text-lg text-neutral-400 md:max-w-screen-md",
+          "text-lg text-neutral-400 md:max-w-screen-md mb-3 md:mb-6",
           poppins.className
         )}
       >
         👋🏻 Hey, I&apos;m Tanay Vaswani (
         <span className="text-blue-500 font-medium"> @iTanayVaswani </span>) a
-        Full Stack Developer from New Delhi, India. Passionate about Software
-        Development, Cloud Engineering, GenAI & LLMs.
+        Full Stack Developer from India. Passionate about Software Development,
+        Cloud Engineering, GenAI & LLMs.
+      </p>
+
+      <p
+        className={cn(
+          "text-lg text-neutral-400 md:max-w-screen-md mb-3 md:mb-8",
+          poppins.className
+        )}
+      >
+        I&apos;m currently an undergraduate, pursuing Electronics &
+        Communication Engineering majors from New Delhi, India.
       </p>
     </div>
   );

@@ -29,7 +29,7 @@ export default function RootLayout({
         >
           <ActiveSectionContextProvider>
             <Navbar />
-            <main className="pt-48 pb-20">{children}</main>
+            <main className="pt-36 md:pt-48 pb-20">{children}</main>
           </ActiveSectionContextProvider>
         </ThemeProvider>
       </body>
