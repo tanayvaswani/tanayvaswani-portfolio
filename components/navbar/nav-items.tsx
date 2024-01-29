@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon, Twitter } from "lucide-react";
+import { GithubIcon, LinkedinIcon, Mail, Twitter } from "lucide-react";
 import { TanayAvatar } from "./tanay-avatar";
 
 export const navItems = [
@@ -30,6 +30,11 @@ export const navItems = [
   {
     name: <GithubIcon className="h-5 w-5" />,
     hash: "https://github.com/tanayvaswani",
+    target: "_blank",
+  },
+  {
+    name: <Mail className="h-5 w-5" />,
+    hash: "mailto:vaswani.tanay9@gmail.com",
     target: "_blank",
   },
   {
