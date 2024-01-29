@@ -67,7 +67,14 @@ const HeroSection = () => {
         Communication Engineering majors from New Delhi, India.
       </motion.p>
 
-      <Separator className="my-4 bg-blue-600/30" />
+      <motion.div
+        className="my-4"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 2 }}
+      >
+        <Separator className="bg-blue-500/30" />
+      </motion.div>
     </div>
   );
 };
