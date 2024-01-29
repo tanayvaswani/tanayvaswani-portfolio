@@ -52,7 +52,7 @@ const HeroSection = () => {
           @iTanayVaswani
         </Link>
         ) a Full Stack Developer from India. Passionate about Software
-        Development, Cloud Engineering, GenAI & LLMs.
+        Development, Cloud Engineering, GenAI, LLMs & Open-Source Softwares.
       </motion.p>
 
       <motion.p
@@ -65,8 +65,7 @@ const HeroSection = () => {
         transition={{ ease: "easeOut", duration: 2 }}
       >
         I&apos;m currently an undergraduate, pursuing Electronics &
-        Communication Engineering majors | Information Technology minors from
-        New Delhi, India.
+        Communication Engineering majors from New Delhi, India.
       </motion.p>
 
       <motion.div
