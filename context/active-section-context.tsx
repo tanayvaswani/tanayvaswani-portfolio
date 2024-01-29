@@ -3,7 +3,7 @@
 import React, { createContext, useContext, useState } from "react";
 import { navItems } from "@/components/navbar/nav-items";
 
-type SectionName = (typeof navItems)[number]["hash"];
+type SectionName = (typeof navItems)[number]["name"];
 
 type ActiveSectionContextProviderProps = {
   children: React.ReactNode;
@@ -20,7 +20,7 @@ export const ActiveSectionContext =
 export default function ActiveSectionContextProvider({
   children,
 }: ActiveSectionContextProviderProps) {
-  const [activeSection, setActiveSection] = useState<SectionName>("/");
+  const [activeSection, setActiveSection] = useState<SectionName>("Home");
 
   return (
     <ActiveSectionContext.Provider

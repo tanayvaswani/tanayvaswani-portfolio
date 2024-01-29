@@ -3,7 +3,7 @@ import { TanayAvatar } from "./tanay-avatar";
 
 export const navItems = [
   {
-    name: <TanayAvatar />,
+    name: "Home",
     hash: "/",
     target: "",
   },
