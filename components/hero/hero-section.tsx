@@ -42,10 +42,11 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        👋🏻 Hey, I&apos;m Tanay Vaswani (
+        👋🏻 Hey, I&apos;m{" "}
+        <span className="text-neutral-200 font-medium">Tanay Vaswani</span> (
         <Link
           href={"https://twitter.com/iTanayVaswani"}
-          className="text-blue-500 font-medium"
+          className="text-blue-500 font-medium hover:text-blue-500/90"
           target="_blank"
         >
           @iTanayVaswani
