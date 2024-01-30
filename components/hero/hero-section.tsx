@@ -42,16 +42,17 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        👋🏻 Hey, I&apos;m Tanay Vaswani (
+        👋🏻 Hey, I&apos;m{" "}
+        <span className="text-neutral-200 font-medium">Tanay Vaswani</span> (
         <Link
           href={"https://twitter.com/iTanayVaswani"}
-          className="text-blue-500 font-medium"
+          className="text-blue-500 font-medium hover:text-blue-500/90"
           target="_blank"
         >
           @iTanayVaswani
         </Link>
         ) a Full Stack Developer from India. Passionate about Software
-        Development, Cloud Engineering, GenAI & LLMs.
+        Development, Cloud Engineering, GenAI, LLMs & Open-Source Softwares.
       </motion.p>
 
       <motion.p
@@ -67,7 +68,14 @@ const HeroSection = () => {
         Communication Engineering majors from New Delhi, India.
       </motion.p>
 
-      <Separator className="my-4 bg-blue-600/30" />
+      <motion.div
+        className="my-4"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 2 }}
+      >
+        <Separator className="bg-blue-500/30" />
+      </motion.div>
     </div>
   );
 };
