@@ -1,5 +1,4 @@
 import { GithubIcon, LinkedinIcon, Mail, Twitter } from "lucide-react";
-import { TanayAvatar } from "./tanay-avatar";
 
 export const navItems = [
   {
