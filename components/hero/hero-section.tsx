@@ -19,8 +19,8 @@ const poppins = Roboto({
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center md:max-w-screen-xl md:mx-auto px-4">
-      <div className="w-full flex flex-col">
+    <div className="grid grid-cols-5 items-center md:max-w-screen-xl md:mx-auto px-4">
+      <div className="w-full flex flex-col col-span-3">
         <h1
           className={cn(
             "text-2xl md:text-4xl font-semibold md:max-w-screen-sm mb-6 md:mb-12",
@@ -70,7 +70,7 @@ const HeroSection = () => {
         </motion.p>
       </div>
 
-      <div className="w-full flex items-center justify-center">
+      <div className="w-full flex items-center justify-center col-span-3">
         {/* Image */}
       </div>
     </div>
