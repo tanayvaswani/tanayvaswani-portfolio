@@ -5,8 +5,9 @@ import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 import { motion } from "framer-motion";
-import { Separator } from "../ui/separator";
+import tanay from "@/public/tanay.jpeg";
 import Link from "next/link";
+import Image from "next/image";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -19,8 +20,23 @@ const poppins = Roboto({
 
 const HeroSection = () => {
   return (
-    <div className="grid grid-cols-5 items-center md:max-w-screen-xl md:mx-auto px-4">
-      <div className="w-full flex flex-col col-span-3">
+    <div className="grid  md:grid-cols-5 items-center md:max-w-screen-xl md:mx-auto px-4">
+      <div className="w-full flex flex-col col-span-3 h-full">
+        <motion.div
+          className="w-full flex items-center justify-center col-span-2 md:hidden mb-8 -mt-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 2 }}
+        >
+          <Image
+            src={tanay}
+            alt={"tanay"}
+            className="rounded-xl"
+            width={280}
+            height={280}
+          />
+        </motion.div>
+
         <h1
           className={cn(
             "text-2xl md:text-4xl font-semibold md:max-w-screen-sm mb-6 md:mb-12",
@@ -58,7 +74,7 @@ const HeroSection = () => {
 
         <motion.p
           className={cn(
-            "text-lg text-neutral-400 md:max-w-screen-md mb-8 md:mb-16",
+            "text-lg text-neutral-400 md:max-w-screen-md",
             poppins.className
           )}
           initial={{ opacity: 0 }}
@@ -70,9 +86,20 @@ const HeroSection = () => {
         </motion.p>
       </div>
 
-      <div className="w-full flex items-center justify-center col-span-3">
-        {/* Image */}
-      </div>
+      <motion.div
+        className="w-full md:flex items-center justify-center col-span-2 hidden"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 2 }}
+      >
+        <Image
+          src={tanay}
+          alt={"tanay"}
+          className="rounded-xl"
+          width={400}
+          height={400}
+        />
+      </motion.div>
     </div>
   );
 };
