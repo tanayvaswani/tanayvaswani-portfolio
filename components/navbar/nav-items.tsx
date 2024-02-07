@@ -6,11 +6,11 @@ export const navItems = [
     hash: "/",
     target: "",
   },
-  {
-    name: "Blogs",
-    hash: "/blogs",
-    target: "",
-  },
+  // {
+  //   name: "Blogs",
+  //   hash: "/blogs",
+  //   target: "",
+  // },
   {
     name: "Projects",
     hash: "/projects",
