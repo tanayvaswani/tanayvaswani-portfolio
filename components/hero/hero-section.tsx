@@ -8,6 +8,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import tanay from "@/public/tanay.jpeg";
 import Image from "next/image";
+import TanayAvatar from "../avatar/tanay-avatar";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -22,7 +23,8 @@ const HeroSection = () => {
   return (
     <div className="grid  md:grid-cols-5 items-center md:max-w-screen-xl md:mx-auto px-6">
       <div className="w-full flex flex-col justify-center col-span-3 h-full">
-       {/* Image for phone */}
+        {/* Image for phone */}
+        <TanayAvatar onDesktop={false} />
 
         <h1
           className={cn(
@@ -74,6 +76,7 @@ const HeroSection = () => {
       </div>
 
       {/* Image for Desktop */}
+      <TanayAvatar />
     </div>
   );
 };
