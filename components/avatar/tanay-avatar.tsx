@@ -17,7 +17,7 @@ const TanayAvatar = ({ onDesktop = true }: { onDesktop?: boolean }) => {
       <Image
         src={tanay}
         alt={"tanay"}
-        className="rounded-full shadow-xl"
+        className="rounded-full shadow-xl hover:scale-105 hover:rotate-3 transition-all duration-300"
         width={onDesktop ? 360 : 240}
         height={onDesktop ? 360 : 240}
       />
