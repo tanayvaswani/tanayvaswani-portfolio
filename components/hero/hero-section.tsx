@@ -21,8 +21,11 @@ const poppins = Roboto({
 
 const HeroSection = () => {
   return (
-    <div className="grid  md:grid-cols-5 items-center md:max-w-screen-xl md:mx-auto px-6">
-      <div className="w-full flex flex-col justify-center col-span-3 h-full">
+    <div className="grid md:grid-cols-7 items-center md:max-w-screen-xl md:mx-auto px-6">
+      {/* Image for Desktop */}
+      <TanayAvatar />
+
+      <div className="w-full flex flex-col justify-center col-span-5 h-full">
         {/* Image for phone */}
         <TanayAvatar onDesktop={false} />
 
@@ -74,9 +77,6 @@ const HeroSection = () => {
           Communication Engineering majors from New Delhi, India.
         </motion.p>
       </div>
-
-      {/* Image for Desktop */}
-      <TanayAvatar />
     </div>
   );
 };
