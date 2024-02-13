@@ -7,8 +7,8 @@ const TanayAvatar = ({ onDesktop = true }: { onDesktop?: boolean }) => {
   return (
     <motion.div
       className={cn(
-        "w-full items-center justify-center col-span-2",
-        onDesktop ? "md:flex hidden" : "flex md:hidden mb-2 -mt-4"
+        "w-full items-center justify-center col-span-3",
+        onDesktop ? "md:flex hidden" : "flex md:hidden"
       )}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -18,8 +18,8 @@ const TanayAvatar = ({ onDesktop = true }: { onDesktop?: boolean }) => {
         src={tanay}
         alt={"tanay"}
         className="rounded-full shadow-lg hover:shadow-xl hover:border-2 hover:border-blue-500 transition-all duration-300"
-        width={onDesktop ? 240 : 240}
-        height={onDesktop ? 240 : 240}
+        width={onDesktop ? 300 : 240}
+        height={onDesktop ? 300 : 240}
       />
     </motion.div>
   );

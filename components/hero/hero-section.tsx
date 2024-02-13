@@ -19,11 +19,11 @@ const poppins = Roboto({
 
 const HeroSection = () => {
   return (
-    <div className="grid md:grid-cols-7 items-center md:max-w-screen-xl md:mx-auto px-6">
+    <div className="grid md:grid-cols-7 items-center justify-center md:max-w-screen-xl md:mx-auto px-6">
       {/* Image for Desktop */}
       <TanayAvatar />
 
-      <div className="w-full flex flex-col justify-center col-span-5 h-full">
+      <div className="w-full flex flex-col justify-center col-span-4 h-full">
         {/* Image for phone */}
         <TanayAvatar onDesktop={false} />
 
