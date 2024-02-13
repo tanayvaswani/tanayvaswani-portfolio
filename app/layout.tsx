@@ -5,6 +5,7 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 import { siteConfig } from "@/config/site-config";
 import type { Metadata } from "next";
 import "./globals.css";
+import { Background } from "@/components/ui/background";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function RootLayout({
         >
           <ActiveSectionContextProvider>
             <Navbar />
+            <Background />
             <main className="pt-36 md:pt-40 pb-20">{children}</main>
           </ActiveSectionContextProvider>
         </ThemeProvider>

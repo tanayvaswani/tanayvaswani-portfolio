@@ -6,8 +6,6 @@ import localFont from "next/font/local";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import tanay from "@/public/tanay.jpeg";
-import Image from "next/image";
 import TanayAvatar from "../avatar/tanay-avatar";
 
 const headingFont = localFont({
@@ -52,16 +50,18 @@ const HeroSection = () => {
           transition={{ ease: "easeOut", duration: 2 }}
         >
           👋🏻 Hey, I&apos;m{" "}
-          <span className="text-neutral-200 font-medium">Tanay Vaswani</span> (
+          <span className="text-neutral-200 font-semibold">Tanay Vaswani</span>{" "}
+          (
           <Link
             href={"https://twitter.com/iTanayVaswani"}
-            className="text-blue-500 font-medium hover:text-blue-500/90"
+            className="text-blue-500 font-semibold hover:text-blue-500/90"
             target="_blank"
           >
             @iTanayVaswani
           </Link>
           ) a Full Stack Developer from India. Passionate about Software
-          Development, Cloud Engineering, GenAI, LLMs & Open-Source Softwares.
+          Development, Cloud Engineering, Backend Systems & Open-Source
+          Softwares.
         </motion.p>
 
         <motion.p
