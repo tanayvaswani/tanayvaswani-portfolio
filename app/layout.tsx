@@ -37,7 +37,6 @@ export default function RootLayout({
         >
           <ActiveSectionContextProvider>
             <Navbar />
-            <Background />
             <main className="pt-36 md:pt-40 pb-20">{children}</main>
           </ActiveSectionContextProvider>
         </ThemeProvider>
