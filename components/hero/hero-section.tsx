@@ -65,7 +65,8 @@ const HeroSection = () => {
         transition={{ ease: "easeOut", duration: 2 }}
       >
         I&apos;m currently an undergraduate, pursuing Electronics &
-        Communication Engineering majors from New Delhi, India.
+        Communication Engineering majors from Maharaja Agrasen Institue of
+        Technology, New Delhi, India.
       </motion.p>
     </div>
   );
