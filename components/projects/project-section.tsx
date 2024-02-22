@@ -3,7 +3,7 @@ import { projectsContent } from "./project-content";
 
 const ProjectSection = () => {
   return (
-    <div className="my-24 w-full">
+    <div className="my-24 w-full md:max-w-screen-2xl md:mx-auto md:px-16">
       <ul className="flex flex-col items-center justify-center w-full">
         {projectsContent.map((card, idx) => {
           return (
