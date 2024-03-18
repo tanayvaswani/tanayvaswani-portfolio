@@ -1,12 +1,13 @@
 "use client";
 
-import { cn } from "@/lib/utils";
 import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
-import { TextGenerateEffect } from "../ui/text-generate-effect";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import TanayAvatar from "../avatar/tanay-avatar";
+import { SproutIcon } from "lucide-react";
+
+import { cn } from "@/lib/utils";
+import { TextGenerateEffect } from "../ui/text-generate-effect";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -26,6 +27,7 @@ const HeroSection = () => {
           headingFont.className
         )}
       >
+        <SproutIcon />
         <TextGenerateEffect
           delay={0.1}
           textColor={""}
