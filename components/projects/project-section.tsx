@@ -10,7 +10,6 @@ const ProjectSection = () => {
             <ProjectCard
               title={card.title}
               description={card.description}
-              imageUrl={card.imageUrl}
               tags={card.tags}
               key={idx}
             />

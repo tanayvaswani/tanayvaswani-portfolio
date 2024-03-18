@@ -1,32 +1,33 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import type { projectData } from "./project-content";
 
 type ProjectCardProps = projectData;
 
 const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
   return (
-    <div className="group mb-3 sm:mb-8 px-4">
-      <section className="bg-gray-100 max-w-[50rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:min-h-[20rem] hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-        <div className="pt-4 pb-7 px-5 sm:pt-10 sm:max-w-[50%] flex flex-col h-full">
-          <h3 className="text-2xl font-semibold">{title}</h3>
+    <div className="md:max-w-screen-md md:mx-auto w-full my-6 px-6">
+      <section className="w-full flex flex-col items-start justify-center">
+        <div className="flex flex-col items-start justify-center">
+          <h3 className="text-xl md:text-2xl font-semibold text-neutral-300">
+            {title}
+          </h3>
 
-          <p className="mt-2 mb-2 leading-6 text-gray-700 dark:text-white/70">
+          <p className="my-2 text-neutral-400 text-sm md:text-lg">
             {description}
           </p>
+        </div>
 
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-            {tags.map((tag, index) => (
-              <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                key={index}
-              >
-                {tag}
-              </li>
-            ))}
-          </ul>
+        <div className="flex flex-wrap items-start justify-start gap-2 text-xs md:text-sm">
+          {tags.map((tag, index) => (
+            <div
+              className="bg-neutral-300/60 text-neutral-800 px-2 py-1 rounded-full shadow-md"
+              key={index}
+            >
+              {tag}
+            </div>
+          ))}
         </div>
       </section>
     </div>
