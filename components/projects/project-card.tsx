@@ -13,7 +13,7 @@ import type { projectData } from "./project-content";
 
 type ProjectCardProps = projectData;
 
-const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, tags, link }: ProjectCardProps) => {
   return (
     <div className="md:max-w-screen-md md:mx-auto w-full py-12 px-6 border-b">
       <section className="w-full flex flex-col items-start justify-center">
@@ -27,12 +27,16 @@ const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
               <Link href={link.github}>
                 <GithubIcon className="h-5 w-5" />
               </Link>
-              <Link href={link.youtube}>
-                <YoutubeIcon className="h-5 w-5" />
-              </Link>
-              <Link href={link.live}>
-                <ExternalLink className="h-5 w-5" />
-              </Link>
+              {link.youtube && (
+                <Link href={link.youtube}>
+                  <YoutubeIcon className="h-5 w-5" />
+                </Link>
+              )}
+              {link.live && (
+                <Link href={link.live}>
+                  <ExternalLink className="h-5 w-5" />
+                </Link>
+              )}
             </div>
           </h3>
 

@@ -12,6 +12,7 @@ const ProjectSection = () => {
               description={card.description}
               tags={card.tags}
               key={idx}
+              link={card.link}
             />
           );
         })}

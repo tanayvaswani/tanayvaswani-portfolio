@@ -2,6 +2,11 @@ export type projectData = {
   title: string;
   description: string;
   tags: string[];
+  link: {
+    github: string;
+    youtube?: string;
+    live?: string;
+  };
 };
 
 export const projectsContent: projectData[] = [
@@ -19,6 +24,11 @@ export const projectsContent: projectData[] = [
       "bCrypt",
       "Docker",
     ],
+    link: {
+      github: "",
+      youtube: "",
+      live: "",
+    },
   },
   {
     title: "Typewriter Playground",
@@ -34,6 +44,11 @@ export const projectsContent: projectData[] = [
       "Turborepo(Monorepo)",
       "Shadcn UI",
     ],
+    link: {
+      github: "",
+      youtube: "",
+      live: "",
+    },
   },
   {
     title: "100xdevs Marketing Website",
@@ -46,6 +61,11 @@ export const projectsContent: projectData[] = [
       "Shadcn UI",
       "Framer Motion",
     ],
+    link: {
+      github: "",
+      youtube: "",
+      live: "",
+    },
   },
   {
     title: "Frello",
@@ -61,6 +81,11 @@ export const projectsContent: projectData[] = [
       "TailwindCSS",
       "Shadcn UI",
     ],
+    link: {
+      github: "",
+      youtube: "",
+      live: "",
+    },
   },
 ];
 
