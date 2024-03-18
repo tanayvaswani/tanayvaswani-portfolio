@@ -18,7 +18,7 @@ const ProjectCard = ({ title, description, tags, link }: ProjectCardProps) => {
     <div className="md:max-w-screen-md md:mx-auto w-full py-12 px-6 border-b">
       <section className="w-full flex flex-col items-start justify-center">
         <div className="flex flex-col items-start justify-center">
-          <h3 className="text-xl md:text-2xl font-semibold text-neutral-300 flex items-center justify-between w-full">
+          <h3 className="text-xl md:text-2xl font-semibold text-zinc-300 flex items-center justify-between w-full">
             <div className="flex items-center">
               <GanttChartIcon className="mr-2" /> {title}
             </div>
@@ -49,7 +49,7 @@ const ProjectCard = ({ title, description, tags, link }: ProjectCardProps) => {
             </div>
           </h3>
 
-          <p className="my-2 text-neutral-400 text-base md:text-lg px-3">
+          <p className="my-2 text-zinc-400 text-base md:text-lg px-3">
             {description}
           </p>
         </div>

@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const Footer = () => {
   return (
-    <div className="border-t w-full px-6 py-2 text-neutral-500">
+    <div className="border-t w-full px-6 py-2 text-zinc-500">
       <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
         <div className="flex flex-row items-center justify-between space-x-4">
           <Button size={"sm"} variant={"ghost"} asChild>

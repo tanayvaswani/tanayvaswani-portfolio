@@ -13,7 +13,7 @@ const ExperienceSection = () => {
       <div className="flex items-start justify-between w-full">
         <div className="flex flex-col items-start justify-between w-full">
           <div className={cn("flex flex-col", headingFont.className)}>
-            <h1 className="flex items-center text-xl md:text-2xl text-neutral-300">
+            <h1 className="flex items-center text-xl md:text-2xl text-zinc-300">
               <GanttChart className="mr-1 hidden md:block" /> Software
               Engineering Intern, Stealth Startup
             </h1>
@@ -25,11 +25,11 @@ const ExperienceSection = () => {
               headingFont.className
             )}
           >
-            <p className="text-neutral-400 italic text-base md:text-lg">
+            <p className="text-zinc-400 italic text-base md:text-lg">
               November, 2023 - Present
             </p>
 
-            <p className="text-neutral-400 italic text-base md:text-lg">
+            <p className="text-zinc-400 italic text-base md:text-lg">
               San Francisco, CA (Remote)
             </p>
           </div>

@@ -35,7 +35,7 @@ const HeroSection = () => {
 
       <motion.p
         className={cn(
-          "text-lg md:text-xl text-neutral-400 md:max-w-screen-md mb-3 md:mb-6",
+          "text-lg md:text-xl text-zinc-400 md:max-w-screen-md mb-3 md:mb-6",
           poppins.className
         )}
         initial={{ opacity: 0 }}
@@ -43,7 +43,7 @@ const HeroSection = () => {
         transition={{ ease: "easeOut", duration: 2 }}
       >
         👋🏻 Hey, I&apos;m{" "}
-        <span className="text-neutral-200 font-semibold">Tanay Vaswani</span> (
+        <span className="text-zinc-200 font-semibold">Tanay Vaswani</span> (
         <Link
           href={"https://twitter.com/iTanayVaswani"}
           className="text-blue-500 font-semibold hover:text-blue-500/90"
@@ -57,7 +57,7 @@ const HeroSection = () => {
 
       <motion.p
         className={cn(
-          "text-lg md:text-xl md:max-w-screen-md text-neutral-400",
+          "text-lg md:text-xl md:max-w-screen-md text-zinc-400",
           poppins.className
         )}
         initial={{ opacity: 0 }}
