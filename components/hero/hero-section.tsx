@@ -4,7 +4,6 @@ import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { SproutIcon } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
