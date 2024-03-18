@@ -7,10 +7,14 @@ const Footer = () => {
       <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
         <div className="flex flex-row items-center justify-between space-x-4">
           <Button size={"sm"} variant={"ghost"} asChild>
-            <Link href={"https://github.com/tanayvaswani"}>GitHub</Link>
+            <Link href={"https://github.com/tanayvaswani"} target="_blank">
+              GitHub
+            </Link>
           </Button>
           <Button size={"sm"} variant={"ghost"} asChild>
-            <Link href={"https://twitter.com/iTanayVaswani"}>Twitter/X</Link>
+            <Link href={"https://twitter.com/iTanayVaswani"} target="_blank">
+              Twitter/X
+            </Link>
           </Button>
         </div>
 
