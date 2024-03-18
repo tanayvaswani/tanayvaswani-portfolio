@@ -7,7 +7,7 @@ type ProjectCardProps = projectData;
 
 const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
   return (
-    <div className="md:max-w-screen-md md:mx-auto w-full my-6 px-6">
+    <div className="md:max-w-screen-md md:mx-auto w-full py-12 px-6 border-b">
       <section className="w-full flex flex-col items-start justify-center">
         <div className="flex flex-col items-start justify-center">
           <h3 className="text-xl md:text-2xl font-semibold text-neutral-300">
