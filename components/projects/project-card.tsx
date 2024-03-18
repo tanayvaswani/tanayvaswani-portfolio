@@ -6,12 +6,7 @@ import type { projectData } from "./project-content";
 
 type ProjectCardProps = projectData;
 
-const ProjectCard = ({
-  title,
-  description,
-  tags,
-  imageUrl,
-}: ProjectCardProps) => {
+const ProjectCard = ({ title, description, tags }: ProjectCardProps) => {
   return (
     <div className="group mb-3 sm:mb-8 px-4">
       <section className="bg-gray-100 max-w-[50rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:min-h-[20rem] hover:bg-gray-200 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
@@ -33,17 +28,6 @@ const ProjectCard = ({
             ))}
           </ul>
         </div>
-
-        <Image
-          src={imageUrl}
-          alt="Project I worked on"
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-                    transition
-                    group-hover:scale-[1.04]
-                    group-hover:-translate-x-3
-                    group-hover:translate-y-3
-                    group-hover:-rotate-2"
-        />
       </section>
     </div>
   );
