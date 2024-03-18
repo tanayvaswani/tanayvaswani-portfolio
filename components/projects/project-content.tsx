@@ -8,7 +8,7 @@ export const projectsContent: projectData[] = [
   {
     title: "Contacts Manager",
     description:
-      "Developed a backend system for contact management, featuring RESTful APIs and custom token-based authentication for secure access control including the password hashing through bCrypt. Utilizing Node.js and Express.js, it facilitates operations on contact records, while Mongoose ORM streamlines interaction with MongoDB. Docker containerization ensures portability and scalability.",
+      "Developed a backend system for contact management, featuring RESTful APIs and custom token-based authentication for secure access control including the password encryption.",
     tags: [
       "Javascript",
       "Node.js",
@@ -17,6 +17,7 @@ export const projectsContent: projectData[] = [
       "MongoDB",
       "JWT",
       "bCrypt",
+      "Docker",
     ],
   },
   {
