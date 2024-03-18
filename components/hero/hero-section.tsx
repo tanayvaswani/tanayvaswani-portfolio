@@ -20,14 +20,13 @@ const poppins = Roboto({
 
 const HeroSection = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center h-full md:max-w-screen-xl md:mx-auto px-6">
+    <div className="w-full flex flex-col items-center justify-center h-full md:max-w-screen-xl md:mx-auto px-6 md:px-0">
       <h1
         className={cn(
-          "text-2xl md:text-4xl font-semibold md:max-w-screen-md mb-6 md:mb-12",
+          "text-3xl md:text-5xl font-semibold md:max-w-screen-md mb-6 md:mb-12",
           headingFont.className
         )}
       >
-        <SproutIcon className="h-7 w-7 text-emerald-300" />
         <TextGenerateEffect
           delay={0.1}
           textColor={""}
@@ -37,7 +36,7 @@ const HeroSection = () => {
 
       <motion.p
         className={cn(
-          "text-lg text-neutral-400 md:max-w-screen-md mb-3 md:mb-6",
+          "text-lg md:text-xl text-neutral-400 md:max-w-screen-md mb-3 md:mb-6",
           poppins.className
         )}
         initial={{ opacity: 0 }}
@@ -59,7 +58,7 @@ const HeroSection = () => {
 
       <motion.p
         className={cn(
-          "text-lg md:max-w-screen-md text-neutral-400",
+          "text-lg md:text-xl md:max-w-screen-md text-neutral-400",
           poppins.className
         )}
         initial={{ opacity: 0 }}
