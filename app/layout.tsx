@@ -1,11 +1,12 @@
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "@/components/providers/theme-provider";
-import Navbar from "@/components/navbar/navbar";
-import ActiveSectionContextProvider from "@/context/active-section-context";
-import { siteConfig } from "@/config/site-config";
 import type { Metadata } from "next";
+
 import "./globals.css";
-import { Background } from "@/components/ui/background";
+import { siteConfig } from "@/config/site-config";
+import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
+import { ThemeProvider } from "@/components/providers/theme-provider";
+import ActiveSectionContextProvider from "@/context/active-section-context";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +38,8 @@ export default function RootLayout({
         >
           <ActiveSectionContextProvider>
             <Navbar />
-            <main className="pt-16 pb-20">{children}</main>
+            <main className="pt-16 pb-20 min-h-full">{children}</main>
+            <Footer />
           </ActiveSectionContextProvider>
         </ThemeProvider>
       </body>

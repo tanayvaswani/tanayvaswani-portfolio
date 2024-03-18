@@ -1,9 +1,25 @@
+import Link from "next/link";
+import { Button } from "../ui/button";
+
 const Footer = () => {
-    return ( 
-        <div>
-            
+  return (
+    <div className="border-t w-full px-6 py-2 text-neutral-500">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
+        <div className="flex flex-row items-center justify-between space-x-4">
+          <Button size={"sm"} variant={"ghost"} asChild>
+            <Link href={"https://github.com/tanayvaswani"}>GitHub</Link>
+          </Button>
+          <Button size={"sm"} variant={"ghost"} asChild>
+            <Link href={"https://twitter.com/iTanayVaswani"}>Twitter/X</Link>
+          </Button>
         </div>
-     );
-}
- 
+
+        <div className="text-sm">
+          © 2024 Tanay Vaswani. All rights reserved.
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default Footer;

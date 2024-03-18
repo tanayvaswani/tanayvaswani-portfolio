@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { motion } from "framer-motion";
+
 import { cn } from "@/lib/utils";
 import { navItems } from "./nav-items";
-import { motion } from "framer-motion";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Navbar() {
