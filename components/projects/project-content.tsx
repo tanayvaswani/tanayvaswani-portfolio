@@ -45,7 +45,7 @@ export const projectsContent: projectData[] = [
       "Shadcn UI",
     ],
     link: {
-      github: "",
+      github: "https://github.com/tanayvaswani/typewriter-playground",
       youtube: "",
       live: "",
     },
@@ -62,9 +62,9 @@ export const projectsContent: projectData[] = [
       "Framer Motion",
     ],
     link: {
-      github: "",
+      github: "https://github.com/tanayvaswani/100xdevs-website",
       youtube: "",
-      live: "",
+      live: "https://100xdevs-tanay.vercel.app",
     },
   },
   {
@@ -82,7 +82,7 @@ export const projectsContent: projectData[] = [
       "Shadcn UI",
     ],
     link: {
-      github: "",
+      github: "https://github.com/tanayvaswani/frello",
       youtube: "",
       live: "",
     },
