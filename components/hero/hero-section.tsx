@@ -27,7 +27,7 @@ const HeroSection = () => {
           headingFont.className
         )}
       >
-        <SproutIcon />
+        <SproutIcon className="h-7 w-7 text-emerald-300" />
         <TextGenerateEffect
           delay={0.1}
           textColor={""}
