@@ -1,11 +1,7 @@
-import { StaticImageData } from "next/image";
-import tanay from "@/public/tanay.jpeg";
-
 export type projectData = {
   title: string;
   description: string;
   tags: string[];
-  imageUrl: string | StaticImageData;
 };
 
 export const projectsContent: projectData[] = [
@@ -22,7 +18,6 @@ export const projectsContent: projectData[] = [
       "JWT",
       "bCrypt",
     ],
-    imageUrl: tanay,
   },
   {
     title: "Contacts Manager",
@@ -37,7 +32,6 @@ export const projectsContent: projectData[] = [
       "JWT",
       "bCrypt",
     ],
-    imageUrl: tanay,
   },
   {
     title: "Contacts Manager",
@@ -52,7 +46,6 @@ export const projectsContent: projectData[] = [
       "JWT",
       "bCrypt",
     ],
-    imageUrl: tanay,
   },
   {
     title: "Contacts Manager",
@@ -67,7 +60,6 @@ export const projectsContent: projectData[] = [
       "JWT",
       "bCrypt",
     ],
-    imageUrl: tanay,
   },
 ];
 
@@ -75,5 +67,4 @@ export const projectsContent: projectData[] = [
 //     title: "",
 //     description: "",
 //     tags: [""],
-//     imageUrl: "",
 //   },
