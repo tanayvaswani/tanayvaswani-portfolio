@@ -12,6 +12,7 @@ const ExperienceSection = ({
   title,
   company,
   duration,
+  location,
   description,
 }: ExperienceContentType) => {
   return (
@@ -35,7 +36,7 @@ const ExperienceSection = ({
             </p>
 
             <p className="text-zinc-400 italic text-base md:text-lg">
-              San Francisco, CA (Remote)
+              {location}
             </p>
           </div>
         </div>
