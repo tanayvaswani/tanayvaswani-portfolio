@@ -12,7 +12,7 @@ const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
 });
 
-const poppins = Roboto({
+const rob = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
   subsets: ["latin"],
 });
@@ -36,7 +36,7 @@ const HeroSection = () => {
       <motion.p
         className={cn(
           "text-lg md:text-xl text-zinc-400 md:max-w-screen-md mb-3 md:mb-6",
-          poppins.className
+          rob.className
         )}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -58,7 +58,7 @@ const HeroSection = () => {
       <motion.p
         className={cn(
           "text-lg md:text-xl md:max-w-screen-md text-zinc-400",
-          poppins.className
+          rob.className
         )}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
