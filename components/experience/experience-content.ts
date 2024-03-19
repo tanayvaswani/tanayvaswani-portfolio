@@ -13,11 +13,10 @@ export const experienceContent = [
     duration: "November 2023 - Present",
     location: "San Francisco, CA (Remote)",
     description: [
-      "Spearheading website engineering for enhanced user experiences.",
-      "Implementing an open-source CMS for seamless management, irrespective of coding proficiency.",
-      "Enabling real-time updates on website data updates via webhooks.",
-      "Utilizing various libraries to streamline form, data, animation, scrolling, and UI functionalities.",
-      "Embracing continuous learning and growth within an exceptional team environment.",
+      "The planning, design, and execution of website development projects to ensure they deliver exceptional user experiences. This involves coordinating with team members to prioritize features, optimize performance, and maintain consistency across the site.",
+      "Taking the initiative to choose and deploy an open-source Content Management System (CMS) to simplify content management tasks for all team members. This decision aims to empower even those without coding backgrounds to contribute effectively to the website's upkeep and growth.",
+      "Integrating webhooks into the website's backend to enable automatic, real-time updates of data from external sources. This feature ensures that information displayed on the website remains current and accurate without manual intervention, enhancing user engagement and trust.",
+      "Actively participating in fostering an environment where creativity, collaboration, and personal growth are valued. Embracing continuous learning and growth within an exceptional team.",
     ],
   },
 ];
