@@ -1,4 +1,4 @@
 export const siteConfig = {
-  title: "Tanay Vaswani",
+  title: "Tanay | Software Engineer",
   description: "Portfolio website of Tanay Vaswani, Software Engineer.",
 };
