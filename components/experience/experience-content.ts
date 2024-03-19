@@ -1,4 +1,4 @@
-export type experienceContent = {
+export type ExperienceContentType = {
   title: string;
   company: string;
   duration: string;
