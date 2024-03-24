@@ -49,7 +49,7 @@ const ExperienceSection = ({
       <div className="md:px-8 px-0">
         <ul
           className={cn(
-            "flex flex-col items-start justify-center py-4 px-0 md:px-4 text-zinc-300/90 text-base md:text-lg list-disc",
+            "flex flex-col items-start justify-center py-4 px-0 md:px-4 text-zinc-400 text-base md:text-lg md:list-disc",
             rob.className
           )}
         >
