@@ -22,8 +22,8 @@ export const navItems = [
     target: "",
   },
   {
-    name: "Contact",
-    hash: "/contact",
+    name: "Blogs",
+    hash: "/blogs",
     target: "",
   },
   {
