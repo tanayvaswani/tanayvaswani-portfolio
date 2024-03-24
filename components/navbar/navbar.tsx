@@ -23,8 +23,8 @@ export default function Navbar() {
             >
               <Link
                 className={cn(
-                  "flex w-full items-center justify-center px-3 py-3 transition delay-75 hover:z-10 hover:text-zinc-300",
-                  { "hover:text-zinc-300": activeSection === link.name },
+                  "flex w-full items-center justify-center px-3 py-3 transition delay-75 hover:z-10 hover:text-zinc-100",
+                  { "hover:text-zinc-100": activeSection === link.name },
                   { "text-zinc-800": activeSection === link.name }
                 )}
                 href={link.hash}
