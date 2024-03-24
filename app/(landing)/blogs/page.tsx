@@ -1,9 +1,9 @@
-const ContactPage = () => {
+const BlogsPage = () => {
     return ( 
         <div className="flex items-center justify-center h-screen">
-            Contact
+            Blogs
         </div>
      );
 }
  
-export default ContactPage;
+export default BlogsPage;
