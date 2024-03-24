@@ -43,10 +43,10 @@ const HeroSection = () => {
         transition={{ ease: "easeOut", duration: 2 }}
       >
         👋🏻 Hey, I&apos;m{" "}
-        <span className="text-zinc-200 font-semibold">Tanay Vaswani</span> (
+        <span className="text-zinc-200 font-medium">Tanay Vaswani</span> (
         <Link
           href={"https://twitter.com/iTanayVaswani"}
-          className="text-blue-500 font-semibold hover:text-blue-500/90"
+          className="text-blue-500 font-medium hover:text-blue-500/90"
           target="_blank"
         >
           @iTanayVaswani
@@ -64,9 +64,9 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        I&apos;m currently an undergraduate, pursuing Electronics &
-        Communication Engineering majors from Maharaja Agrasen Institue of
-        Technology, New Delhi, India.
+        Currently an undergraduate, pursuing Electronics & Communication
+        Engineering majors from Maharaja Agrasen Institue of Technology, New
+        Delhi, India.
       </motion.p>
     </div>
   );
