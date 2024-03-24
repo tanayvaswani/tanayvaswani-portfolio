@@ -68,6 +68,30 @@ export const projectsContent: projectData[] = [
     },
   },
   {
+    title: "CompanionAI",
+    description:
+      "Create, communicate, replicate your go-to AI companion according to your mood!",
+    tags: [
+      "Typescript",
+      "Next.js",
+      "Clerk Auth",
+      "Redis",
+      "Pincone",
+      "Shadcn UI",
+      "Cloudinary",
+      "TailwindCSS",
+      "React Hook Form",
+      "OpenAI API",
+      "ReplicateAI API",
+      "Stripe Payments",
+    ],
+    link: {
+      github: "https://github.com/tanayvaswani/companion-ai",
+      youtube: "",
+      live: "",
+    },
+  },
+  {
     title: "Frello",
     description:
       "Crafted Task Manager Application that delivers a dynamic platform for streamlined task management. Combining the power of organisation team-up, it presents users with an elegant and intuitive interface, facilitating effortless task handling.",
