@@ -23,17 +23,20 @@ const ExperienceSection = ({
 }: ExperienceContentType) => {
   return (
     <div className="my-6 md:max-w-screen-lg md:mx-auto px-6 w-full">
-      <div className="flex flex-col items-start justify-between w-full">
-        <div className={cn("flex flex-col", headingFont.className)}>
-          <h1 className="flex items-center text-xl md:text-2xl text-zinc-300">
-            <GanttChart className="mr-1 hidden md:block" /> {title}, {company}
+      <div className="flex flex-col items-start justify-between w-full md:px-8 px-0">
+        <div className={cn("flex flex-col")}>
+          <h1 className="flex flex-col text-xl md:text-2xl">
+            <span className={cn(headingFont.className)}>{title}</span>
+            <span className={cn("text-zinc-300", headingFont.className)}>
+              {company}
+            </span>
           </h1>
         </div>
 
         <div
           className={cn(
-            "flex flex-col md:flex-row items-start md:items-center justify-between w-full md:px-8 px-0 py-1",
-            headingFont.className
+            "flex flex-col md:flex-row items-start md:items-center justify-between w-full py-1",
+            rob.className
           )}
         >
           <p className="text-zinc-400 italic text-base md:text-lg">
