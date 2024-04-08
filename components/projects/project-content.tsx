@@ -41,7 +41,7 @@ export const projectsContent: projectData[] = [
       "Prisma",
       "Socket.IO",
       "TailwindCSS",
-      "Turborepo(Monorepo)",
+      "Turborepo",
       "Shadcn UI",
     ],
     link: {
