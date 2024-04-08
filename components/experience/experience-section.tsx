@@ -22,7 +22,7 @@ const ExperienceSection = ({
   description,
 }: ExperienceContentType) => {
   return (
-    <div className="my-20 md:max-w-screen-lg md:mx-auto px-6 w-full">
+    <div className="my-6 md:max-w-screen-lg md:mx-auto px-6 w-full">
       <div className="flex flex-col items-start justify-between w-full">
         <div className={cn("flex flex-col", headingFont.className)}>
           <h1 className="flex items-center text-xl md:text-2xl text-zinc-300">
@@ -54,7 +54,7 @@ const ExperienceSection = ({
           )}
         >
           {description?.map((desc, idx) => (
-            <li key={idx} className="py-2">
+            <li key={idx} className="py-1">
               {desc}
             </li>
           ))}

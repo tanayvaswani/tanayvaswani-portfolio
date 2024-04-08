@@ -20,4 +20,11 @@ export const experienceContent = [
       "Actively participating in fostering an environment where creativity, collaboration, and personal growth are valued. Embracing continuous learning and growth within an exceptional team.",
     ],
   },
+  {
+    title: "DevOps Mentor",
+    company: "Google Developer Students Club (GDSC)",
+    duration: "August 2023 - Present",
+    location: "MAIT, New Delhi",
+    description: [],
+  },
 ];
