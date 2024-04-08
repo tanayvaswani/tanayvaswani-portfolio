@@ -26,14 +26,14 @@ const ProjectCard = ({ title, description, tags, link }: ProjectCardProps) => {
             <div className="flex items-center gap-4 ml-4">
               <Link
                 href={link.github}
-                className="hover:text-blue-500 transition-all"
+                className="text-emerald-600 hover:text-emerald-700 transition-all"
               >
                 <GithubIcon className="h-5 w-5" />
               </Link>
               {link.youtube && (
                 <Link
                   href={link.youtube}
-                  className="hover:text-blue-500 transition-all"
+                  className="text-red-600 hover:text-red-700 transition-all"
                 >
                   <YoutubeIcon className="h-5 w-5" />
                 </Link>
@@ -41,7 +41,7 @@ const ProjectCard = ({ title, description, tags, link }: ProjectCardProps) => {
               {link.live && (
                 <Link
                   href={link.live}
-                  className="hover:text-blue-500 transition-all"
+                  className="text-blue-500 hover:text-blue-700 transition-all"
                 >
                   <ExternalLink className="h-5 w-5" />
                 </Link>
