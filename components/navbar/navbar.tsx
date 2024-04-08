@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <header className="relative z-[999]">
-      <motion.div className="fixed left-1/2 top-0 h-[4.5rem] w-full -translate-x-1/2 rounded-none border bg-zinc-900 bg-opacity-80 backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.3rem] sm:w-[41.5rem] sm:rounded-full"></motion.div>
+      <motion.div className="fixed left-1/2 top-0 h-[4.5rem] w-full -translate-x-1/2 rounded-none border bg-zinc-900 bg-opacity-80 backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.3rem] sm:w-[41rem] sm:rounded-full"></motion.div>
 
       <nav className="fixed left-1/2 top-[0.15rem] flex h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-zinc-300 sm:w-[initial] sm:flex-nowrap sm:gap-5">
