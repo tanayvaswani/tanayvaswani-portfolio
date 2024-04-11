@@ -51,8 +51,38 @@ const HeroSection = () => {
         >
           @iTanayVaswani
         </Link>
-        ) a Full Stack Developer from India. Passionate about Software
-        Development, Cloud Engineering, Backend Systems & Open-Source Softwares.
+        ) a Software Engineer from India. Passionate about Backend Engineering,
+        Infrastructure, Cloud & Open-Source Softwares.
+      </motion.p>
+
+      <motion.p
+        className={cn(
+          "text-lg md:text-xl md:max-w-screen-md text-zinc-400 mb-2 md:mb-4",
+          rob.className
+        )}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 2 }}
+      >
+        Currently an undergraduate, pursuing Electronics & Communication
+        Engineering majors & Machine Learning minors from Maharaja Agrasen
+        Institue of Technology, New Delhi, India.
+      </motion.p>
+
+      <motion.p
+        className={cn(
+          "text-lg md:text-xl md:max-w-screen-md text-zinc-400 mb-2 md:mb-4",
+          rob.className
+        )}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 2 }}
+      >
+        Building some stuff everyday, learning by doing!
+        <br />
+        As of April 2024, I&apos;m working on an awesome Machine Learning
+        Platform using Next.js, Typescript, TailwindCSS, NextAuth, FastAPI and
+        much more...
       </motion.p>
 
       <motion.p
@@ -64,9 +94,8 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        Currently an undergraduate, pursuing Electronics & Communication
-        Engineering majors from Maharaja Agrasen Institue of Technology, New
-        Delhi, India.
+        Apart from that, I like spending my free time with building CLI tools
+        using GO and some AI SDK stuff.
       </motion.p>
     </div>
   );
