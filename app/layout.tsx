@@ -38,7 +38,7 @@ export default function RootLayout({
         >
           <ActiveSectionContextProvider>
             <Navbar />
-            <main className="pt-16 pb-20 min-h-full">{children}</main>
+            <main className="pt-16 pb-36 min-h-full">{children}</main>
             <Footer />
           </ActiveSectionContextProvider>
         </ThemeProvider>
